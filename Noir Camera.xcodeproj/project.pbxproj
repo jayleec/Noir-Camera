@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69DB799D191489CD00AF1230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB799C191489CD00AF1230 /* Foundation.framework */; };
+		69DB799F191489CD00AF1230 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB799E191489CD00AF1230 /* CoreGraphics.framework */; };
+		69DB79A1191489CD00AF1230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB79A0191489CD00AF1230 /* UIKit.framework */; };
+		69DB79A7191489CD00AF1230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69DB79A5191489CD00AF1230 /* InfoPlist.strings */; };
+		69DB79A9191489CD00AF1230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79A8191489CD00AF1230 /* main.m */; };
+		69DB79AD191489CD00AF1230 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79AC191489CD00AF1230 /* JKAppDelegate.m */; };
+		69DB79B0191489CD00AF1230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DB79AE191489CD00AF1230 /* Main.storyboard */; };
+		69DB79B3191489CD00AF1230 /* JKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79B2191489CD00AF1230 /* JKFirstViewController.m */; };
+		69DB79B6191489CD00AF1230 /* JKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79B5191489CD00AF1230 /* JKSecondViewController.m */; };
+		69DB79B8191489CD00AF1230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DB79B7191489CD00AF1230 /* Images.xcassets */; };
+		69DB79BF191489CD00AF1230 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB79BE191489CD00AF1230 /* XCTest.framework */; };
+		69DB79C0191489CD00AF1230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB799C191489CD00AF1230 /* Foundation.framework */; };
+		69DB79C1191489CD00AF1230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB79A0191489CD00AF1230 /* UIKit.framework */; };
+		69DB79C9191489CD00AF1230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69DB79C7191489CD00AF1230 /* InfoPlist.strings */; };
+		69DB79CB191489CD00AF1230 /* Noir_CameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79CA191489CD00AF1230 /* Noir_CameraTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69DB79C2191489CD00AF1230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69DB7991191489CD00AF1230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69DB7998191489CD00AF1230;
+			remoteInfo = "Noir Camera";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69DB7999191489CD00AF1230 /* Noir Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noir Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DB799C191489CD00AF1230 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		69DB799E191489CD00AF1230 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		69DB79A0191489CD00AF1230 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		69DB79A4191489CD00AF1230 /* Noir Camera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Noir Camera-Info.plist"; sourceTree = "<group>"; };
+		69DB79A6191489CD00AF1230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69DB79A8191489CD00AF1230 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69DB79AA191489CD00AF1230 /* Noir Camera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Noir Camera-Prefix.pch"; sourceTree = "<group>"; };
+		69DB79AB191489CD00AF1230 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
+		69DB79AC191489CD00AF1230 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
+		69DB79AF191489CD00AF1230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		69DB79B1191489CD00AF1230 /* JKFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKFirstViewController.h; sourceTree = "<group>"; };
+		69DB79B2191489CD00AF1230 /* JKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKFirstViewController.m; sourceTree = "<group>"; };
+		69DB79B4191489CD00AF1230 /* JKSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSecondViewController.h; sourceTree = "<group>"; };
+		69DB79B5191489CD00AF1230 /* JKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSecondViewController.m; sourceTree = "<group>"; };
+		69DB79B7191489CD00AF1230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		69DB79BD191489CD00AF1230 /* Noir CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noir CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69DB79BE191489CD00AF1230 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		69DB79C6191489CD00AF1230 /* Noir CameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Noir CameraTests-Info.plist"; sourceTree = "<group>"; };
+		69DB79C8191489CD00AF1230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		69DB79CA191489CD00AF1230 /* Noir_CameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Noir_CameraTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69DB7996191489CD00AF1230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DB799F191489CD00AF1230 /* CoreGraphics.framework in Frameworks */,
+				69DB79A1191489CD00AF1230 /* UIKit.framework in Frameworks */,
+				69DB799D191489CD00AF1230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DB79BA191489CD00AF1230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DB79BF191489CD00AF1230 /* XCTest.framework in Frameworks */,
+				69DB79C1191489CD00AF1230 /* UIKit.framework in Frameworks */,
+				69DB79C0191489CD00AF1230 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69DB7990191489CD00AF1230 = {
+			isa = PBXGroup;
+			children = (
+				69DB79A2191489CD00AF1230 /* Noir Camera */,
+				69DB79C4191489CD00AF1230 /* Noir CameraTests */,
+				69DB799B191489CD00AF1230 /* Frameworks */,
+				69DB799A191489CD00AF1230 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		69DB799A191489CD00AF1230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69DB7999191489CD00AF1230 /* Noir Camera.app */,
+				69DB79BD191489CD00AF1230 /* Noir CameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69DB799B191489CD00AF1230 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69DB799C191489CD00AF1230 /* Foundation.framework */,
+				69DB799E191489CD00AF1230 /* CoreGraphics.framework */,
+				69DB79A0191489CD00AF1230 /* UIKit.framework */,
+				69DB79BE191489CD00AF1230 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69DB79A2191489CD00AF1230 /* Noir Camera */ = {
+			isa = PBXGroup;
+			children = (
+				69DB79AB191489CD00AF1230 /* JKAppDelegate.h */,
+				69DB79AC191489CD00AF1230 /* JKAppDelegate.m */,
+				69DB79AE191489CD00AF1230 /* Main.storyboard */,
+				69DB79B1191489CD00AF1230 /* JKFirstViewController.h */,
+				69DB79B2191489CD00AF1230 /* JKFirstViewController.m */,
+				69DB79B4191489CD00AF1230 /* JKSecondViewController.h */,
+				69DB79B5191489CD00AF1230 /* JKSecondViewController.m */,
+				69DB79B7191489CD00AF1230 /* Images.xcassets */,
+				69DB79A3191489CD00AF1230 /* Supporting Files */,
+			);
+			path = "Noir Camera";
+			sourceTree = "<group>";
+		};
+		69DB79A3191489CD00AF1230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69DB79A4191489CD00AF1230 /* Noir Camera-Info.plist */,
+				69DB79A5191489CD00AF1230 /* InfoPlist.strings */,
+				69DB79A8191489CD00AF1230 /* main.m */,
+				69DB79AA191489CD00AF1230 /* Noir Camera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		69DB79C4191489CD00AF1230 /* Noir CameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				69DB79CA191489CD00AF1230 /* Noir_CameraTests.m */,
+				69DB79C5191489CD00AF1230 /* Supporting Files */,
+			);
+			path = "Noir CameraTests";
+			sourceTree = "<group>";
+		};
+		69DB79C5191489CD00AF1230 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69DB79C6191489CD00AF1230 /* Noir CameraTests-Info.plist */,
+				69DB79C7191489CD00AF1230 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		69DB7998191489CD00AF1230 /* Noir Camera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DB79CE191489CD00AF1230 /* Build configuration list for PBXNativeTarget "Noir Camera" */;
+			buildPhases = (
+				69DB7995191489CD00AF1230 /* Sources */,
+				69DB7996191489CD00AF1230 /* Frameworks */,
+				69DB7997191489CD00AF1230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noir Camera";
+			productName = "Noir Camera";
+			productReference = 69DB7999191489CD00AF1230 /* Noir Camera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		69DB79BC191489CD00AF1230 /* Noir CameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69DB79D1191489CD00AF1230 /* Build configuration list for PBXNativeTarget "Noir CameraTests" */;
+			buildPhases = (
+				69DB79B9191489CD00AF1230 /* Sources */,
+				69DB79BA191489CD00AF1230 /* Frameworks */,
+				69DB79BB191489CD00AF1230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				69DB79C3191489CD00AF1230 /* PBXTargetDependency */,
+			);
+			name = "Noir CameraTests";
+			productName = "Noir CameraTests";
+			productReference = 69DB79BD191489CD00AF1230 /* Noir CameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69DB7991191489CD00AF1230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Zihae;
+				TargetAttributes = {
+					69DB79BC191489CD00AF1230 = {
+						TestTargetID = 69DB7998191489CD00AF1230;
+					};
+				};
+			};
+			buildConfigurationList = 69DB7994191489CD00AF1230 /* Build configuration list for PBXProject "Noir Camera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 69DB7990191489CD00AF1230;
+			productRefGroup = 69DB799A191489CD00AF1230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69DB7998191489CD00AF1230 /* Noir Camera */,
+				69DB79BC191489CD00AF1230 /* Noir CameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69DB7997191489CD00AF1230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DB79B8191489CD00AF1230 /* Images.xcassets in Resources */,
+				69DB79A7191489CD00AF1230 /* InfoPlist.strings in Resources */,
+				69DB79B0191489CD00AF1230 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DB79BB191489CD00AF1230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DB79C9191489CD00AF1230 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69DB7995191489CD00AF1230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DB79B3191489CD00AF1230 /* JKFirstViewController.m in Sources */,
+				69DB79A9191489CD00AF1230 /* main.m in Sources */,
+				69DB79AD191489CD00AF1230 /* JKAppDelegate.m in Sources */,
+				69DB79B6191489CD00AF1230 /* JKSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69DB79B9191489CD00AF1230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69DB79CB191489CD00AF1230 /* Noir_CameraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69DB79C3191489CD00AF1230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69DB7998191489CD00AF1230 /* Noir Camera */;
+			targetProxy = 69DB79C2191489CD00AF1230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69DB79A5191489CD00AF1230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DB79A6191489CD00AF1230 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		69DB79AE191489CD00AF1230 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DB79AF191489CD00AF1230 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		69DB79C7191489CD00AF1230 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69DB79C8191489CD00AF1230 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69DB79CC191489CD00AF1230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		69DB79CD191489CD00AF1230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		69DB79CF191489CD00AF1230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noir Camera/Noir Camera-Prefix.pch";
+				INFOPLIST_FILE = "Noir Camera/Noir Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69DB79D0191489CD00AF1230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noir Camera/Noir Camera-Prefix.pch";
+				INFOPLIST_FILE = "Noir Camera/Noir Camera-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69DB79D2191489CD00AF1230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Noir Camera.app/Noir Camera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noir Camera/Noir Camera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Noir CameraTests/Noir CameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		69DB79D3191489CD00AF1230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Noir Camera.app/Noir Camera";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Noir Camera/Noir Camera-Prefix.pch";
+				INFOPLIST_FILE = "Noir CameraTests/Noir CameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69DB7994191489CD00AF1230 /* Build configuration list for PBXProject "Noir Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DB79CC191489CD00AF1230 /* Debug */,
+				69DB79CD191489CD00AF1230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69DB79CE191489CD00AF1230 /* Build configuration list for PBXNativeTarget "Noir Camera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DB79CF191489CD00AF1230 /* Debug */,
+				69DB79D0191489CD00AF1230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		69DB79D1191489CD00AF1230 /* Build configuration list for PBXNativeTarget "Noir CameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69DB79D2191489CD00AF1230 /* Debug */,
+				69DB79D3191489CD00AF1230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69DB7991191489CD00AF1230 /* Project object */;
+}
