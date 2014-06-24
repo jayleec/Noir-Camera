@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39CEC6F4E47043AE92641812 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A54ABF8660734E64A816F547 /* libPods.a */; };
+		690E3F4619171177008F9C38 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F4519171177008F9C38 /* ImageIO.framework */; };
+		690E3F481917118B008F9C38 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F471917118B008F9C38 /* QuartzCore.framework */; };
+		690E3F4A19171193008F9C38 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F4919171193008F9C38 /* AVFoundation.framework */; };
+		690E3F4C1917119C008F9C38 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F4B1917119C008F9C38 /* CoreImage.framework */; };
+		690E3F4E191711A4008F9C38 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F4D191711A4008F9C38 /* CoreMedia.framework */; };
+		690E3F50191711AC008F9C38 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F4F191711AC008F9C38 /* CoreVideo.framework */; };
+		690E3F52191711B4008F9C38 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F51191711B4008F9C38 /* MobileCoreServices.framework */; };
+		690E3F54191711C0008F9C38 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F53191711C0008F9C38 /* OpenGLES.framework */; };
+		690E3F56191711D7008F9C38 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F55191711D7008F9C38 /* GLKit.framework */; };
+		690E3F58191711E4008F9C38 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690E3F57191711E4008F9C38 /* AssetsLibrary.framework */; };
+		69D97CDE191B5ACF007C4836 /* JKGLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D97CDD191B5ACF007C4836 /* JKGLCameraViewController.m */; };
+		69D97CE1191B6C1B007C4836 /* CZGPerlinGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 69D97CE0191B6C1B007C4836 /* CZGPerlinGenerator.m */; };
 		69DB799D191489CD00AF1230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB799C191489CD00AF1230 /* Foundation.framework */; };
 		69DB799F191489CD00AF1230 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB799E191489CD00AF1230 /* CoreGraphics.framework */; };
 		69DB79A1191489CD00AF1230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB79A0191489CD00AF1230 /* UIKit.framework */; };
@@ -14,14 +27,14 @@
 		69DB79A9191489CD00AF1230 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79A8191489CD00AF1230 /* main.m */; };
 		69DB79AD191489CD00AF1230 /* JKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79AC191489CD00AF1230 /* JKAppDelegate.m */; };
 		69DB79B0191489CD00AF1230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 69DB79AE191489CD00AF1230 /* Main.storyboard */; };
-		69DB79B3191489CD00AF1230 /* JKFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79B2191489CD00AF1230 /* JKFirstViewController.m */; };
-		69DB79B6191489CD00AF1230 /* JKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79B5191489CD00AF1230 /* JKSecondViewController.m */; };
 		69DB79B8191489CD00AF1230 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69DB79B7191489CD00AF1230 /* Images.xcassets */; };
 		69DB79BF191489CD00AF1230 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB79BE191489CD00AF1230 /* XCTest.framework */; };
 		69DB79C0191489CD00AF1230 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB799C191489CD00AF1230 /* Foundation.framework */; };
 		69DB79C1191489CD00AF1230 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69DB79A0191489CD00AF1230 /* UIKit.framework */; };
 		69DB79C9191489CD00AF1230 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 69DB79C7191489CD00AF1230 /* InfoPlist.strings */; };
 		69DB79CB191489CD00AF1230 /* Noir_CameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79CA191489CD00AF1230 /* Noir_CameraTests.m */; };
+		69DB79D919148AA000AF1230 /* JKFeaturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79D819148AA000AF1230 /* JKFeaturesViewController.m */; };
+		69DB79DC19148E5000AF1230 /* JKPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 69DB79DB19148E5000AF1230 /* JKPhotoCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6909443A1914A6ED003EDAAA /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		690E3F4519171177008F9C38 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		690E3F471917118B008F9C38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		690E3F4919171193008F9C38 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		690E3F4B1917119C008F9C38 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		690E3F4D191711A4008F9C38 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		690E3F4F191711AC008F9C38 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		690E3F51191711B4008F9C38 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		690E3F53191711C0008F9C38 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		690E3F55191711D7008F9C38 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		690E3F57191711E4008F9C38 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		69D97CDC191B5ACF007C4836 /* JKGLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKGLCameraViewController.h; sourceTree = "<group>"; };
+		69D97CDD191B5ACF007C4836 /* JKGLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKGLCameraViewController.m; sourceTree = "<group>"; };
+		69D97CDF191B6C1B007C4836 /* CZGPerlinGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZGPerlinGenerator.h; sourceTree = "<group>"; };
+		69D97CE0191B6C1B007C4836 /* CZGPerlinGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZGPerlinGenerator.m; sourceTree = "<group>"; };
 		69DB7999191489CD00AF1230 /* Noir Camera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noir Camera.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DB799C191489CD00AF1230 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		69DB799E191489CD00AF1230 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -46,16 +74,18 @@
 		69DB79AB191489CD00AF1230 /* JKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAppDelegate.h; sourceTree = "<group>"; };
 		69DB79AC191489CD00AF1230 /* JKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAppDelegate.m; sourceTree = "<group>"; };
 		69DB79AF191489CD00AF1230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		69DB79B1191489CD00AF1230 /* JKFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKFirstViewController.h; sourceTree = "<group>"; };
-		69DB79B2191489CD00AF1230 /* JKFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKFirstViewController.m; sourceTree = "<group>"; };
-		69DB79B4191489CD00AF1230 /* JKSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSecondViewController.h; sourceTree = "<group>"; };
-		69DB79B5191489CD00AF1230 /* JKSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSecondViewController.m; sourceTree = "<group>"; };
 		69DB79B7191489CD00AF1230 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		69DB79BD191489CD00AF1230 /* Noir CameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noir CameraTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		69DB79BE191489CD00AF1230 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		69DB79C6191489CD00AF1230 /* Noir CameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Noir CameraTests-Info.plist"; sourceTree = "<group>"; };
 		69DB79C8191489CD00AF1230 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		69DB79CA191489CD00AF1230 /* Noir_CameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Noir_CameraTests.m; sourceTree = "<group>"; };
+		69DB79D719148AA000AF1230 /* JKFeaturesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKFeaturesViewController.h; sourceTree = "<group>"; };
+		69DB79D819148AA000AF1230 /* JKFeaturesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKFeaturesViewController.m; sourceTree = "<group>"; };
+		69DB79DA19148E5000AF1230 /* JKPhotoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKPhotoCell.h; sourceTree = "<group>"; };
+		69DB79DB19148E5000AF1230 /* JKPhotoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKPhotoCell.m; sourceTree = "<group>"; };
+		A54ABF8660734E64A816F547 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9FB05AE280747F8B963A21A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +93,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690E3F58191711E4008F9C38 /* AssetsLibrary.framework in Frameworks */,
+				690E3F56191711D7008F9C38 /* GLKit.framework in Frameworks */,
+				690E3F54191711C0008F9C38 /* OpenGLES.framework in Frameworks */,
+				690E3F52191711B4008F9C38 /* MobileCoreServices.framework in Frameworks */,
+				690E3F50191711AC008F9C38 /* CoreVideo.framework in Frameworks */,
+				690E3F4E191711A4008F9C38 /* CoreMedia.framework in Frameworks */,
+				690E3F4C1917119C008F9C38 /* CoreImage.framework in Frameworks */,
+				690E3F4A19171193008F9C38 /* AVFoundation.framework in Frameworks */,
+				690E3F481917118B008F9C38 /* QuartzCore.framework in Frameworks */,
+				690E3F4619171177008F9C38 /* ImageIO.framework in Frameworks */,
 				69DB799F191489CD00AF1230 /* CoreGraphics.framework in Frameworks */,
 				69DB79A1191489CD00AF1230 /* UIKit.framework in Frameworks */,
 				69DB799D191489CD00AF1230 /* Foundation.framework in Frameworks */,
+				39CEC6F4E47043AE92641812 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,10 +126,12 @@
 		69DB7990191489CD00AF1230 = {
 			isa = PBXGroup;
 			children = (
+				6909443A1914A6ED003EDAAA /* Podfile */,
 				69DB79A2191489CD00AF1230 /* Noir Camera */,
 				69DB79C4191489CD00AF1230 /* Noir CameraTests */,
 				69DB799B191489CD00AF1230 /* Frameworks */,
 				69DB799A191489CD00AF1230 /* Products */,
+				E9FB05AE280747F8B963A21A /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,10 +147,21 @@
 		69DB799B191489CD00AF1230 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				690E3F57191711E4008F9C38 /* AssetsLibrary.framework */,
+				690E3F55191711D7008F9C38 /* GLKit.framework */,
+				690E3F53191711C0008F9C38 /* OpenGLES.framework */,
+				690E3F51191711B4008F9C38 /* MobileCoreServices.framework */,
+				690E3F4F191711AC008F9C38 /* CoreVideo.framework */,
+				690E3F4D191711A4008F9C38 /* CoreMedia.framework */,
+				690E3F4B1917119C008F9C38 /* CoreImage.framework */,
+				690E3F4919171193008F9C38 /* AVFoundation.framework */,
+				690E3F471917118B008F9C38 /* QuartzCore.framework */,
+				690E3F4519171177008F9C38 /* ImageIO.framework */,
 				69DB799C191489CD00AF1230 /* Foundation.framework */,
 				69DB799E191489CD00AF1230 /* CoreGraphics.framework */,
 				69DB79A0191489CD00AF1230 /* UIKit.framework */,
 				69DB79BE191489CD00AF1230 /* XCTest.framework */,
+				A54ABF8660734E64A816F547 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -115,13 +169,17 @@
 		69DB79A2191489CD00AF1230 /* Noir Camera */ = {
 			isa = PBXGroup;
 			children = (
+				69D97CDF191B6C1B007C4836 /* CZGPerlinGenerator.h */,
+				69D97CE0191B6C1B007C4836 /* CZGPerlinGenerator.m */,
 				69DB79AB191489CD00AF1230 /* JKAppDelegate.h */,
 				69DB79AC191489CD00AF1230 /* JKAppDelegate.m */,
 				69DB79AE191489CD00AF1230 /* Main.storyboard */,
-				69DB79B1191489CD00AF1230 /* JKFirstViewController.h */,
-				69DB79B2191489CD00AF1230 /* JKFirstViewController.m */,
-				69DB79B4191489CD00AF1230 /* JKSecondViewController.h */,
-				69DB79B5191489CD00AF1230 /* JKSecondViewController.m */,
+				69D97CDC191B5ACF007C4836 /* JKGLCameraViewController.h */,
+				69D97CDD191B5ACF007C4836 /* JKGLCameraViewController.m */,
+				69DB79DA19148E5000AF1230 /* JKPhotoCell.h */,
+				69DB79DB19148E5000AF1230 /* JKPhotoCell.m */,
+				69DB79D719148AA000AF1230 /* JKFeaturesViewController.h */,
+				69DB79D819148AA000AF1230 /* JKFeaturesViewController.m */,
 				69DB79B7191489CD00AF1230 /* Images.xcassets */,
 				69DB79A3191489CD00AF1230 /* Supporting Files */,
 			);
@@ -164,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69DB79CE191489CD00AF1230 /* Build configuration list for PBXNativeTarget "Noir Camera" */;
 			buildPhases = (
+				6A05FCF3E5F94735A169D00B /* Check Pods Manifest.lock */,
 				69DB7995191489CD00AF1230 /* Sources */,
 				69DB7996191489CD00AF1230 /* Frameworks */,
 				69DB7997191489CD00AF1230 /* Resources */,
+				4DEFEF55A70046ABBDFE7CE4 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -205,6 +265,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = Zihae;
 				TargetAttributes = {
+					69DB7998191489CD00AF1230 = {
+						DevelopmentTeam = 3BF35UELZG;
+					};
 					69DB79BC191489CD00AF1230 = {
 						TestTargetID = 69DB7998191489CD00AF1230;
 					};
@@ -250,15 +313,50 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DEFEF55A70046ABBDFE7CE4 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A05FCF3E5F94735A169D00B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69DB7995191489CD00AF1230 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				69DB79B3191489CD00AF1230 /* JKFirstViewController.m in Sources */,
+				69DB79DC19148E5000AF1230 /* JKPhotoCell.m in Sources */,
+				69D97CDE191B5ACF007C4836 /* JKGLCameraViewController.m in Sources */,
+				69D97CE1191B6C1B007C4836 /* CZGPerlinGenerator.m in Sources */,
 				69DB79A9191489CD00AF1230 /* main.m in Sources */,
 				69DB79AD191489CD00AF1230 /* JKAppDelegate.m in Sources */,
-				69DB79B6191489CD00AF1230 /* JKSecondViewController.m in Sources */,
+				69DB79D919148AA000AF1230 /* JKFeaturesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,26 +478,36 @@
 		};
 		69DB79CF191489CD00AF1230 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FB05AE280747F8B963A21A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noir Camera/Noir Camera-Prefix.pch";
 				INFOPLIST_FILE = "Noir Camera/Noir Camera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
 		69DB79D0191489CD00AF1230 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9FB05AE280747F8B963A21A /* Pods.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Noir Camera/Noir Camera-Prefix.pch";
 				INFOPLIST_FILE = "Noir Camera/Noir Camera-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -463,6 +571,7 @@
 				69DB79D0191489CD00AF1230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		69DB79D1191489CD00AF1230 /* Build configuration list for PBXNativeTarget "Noir CameraTests" */ = {
 			isa = XCConfigurationList;
@@ -471,6 +580,7 @@
 				69DB79D3191489CD00AF1230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

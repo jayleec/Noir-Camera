@@ -7,12 +7,18 @@
 //
 
 #import "JKAppDelegate.h"
+#import <SimpleAuth/SimpleAuth.h>
+
 
 @implementation JKAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    SimpleAuth.configuration[@"instagram"] = @{
+       @"client_id" : @"f8027e1dd5fd42518ecee55c1356b0ea",
+       SimpleAuthRedirectURIKey : @"noircamera://auth/instagram"
+       };
+    
     return YES;
 }
 							
